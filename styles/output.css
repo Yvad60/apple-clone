@@ -555,13 +555,12 @@ html {
   --tw-backdrop-sepia:  ;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.absolute {
+  position: absolute;
 }
 
-.font-bold {
-  font-weight: 700;
+.relative {
+  position: relative;
 }
 
 .navbar {
@@ -577,7 +576,7 @@ html {
 
 .navbar__links {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   font-size: 12px;
 }
 
@@ -627,6 +626,7 @@ html {
   align-items: center;
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  padding-top: 40px;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -638,3 +638,39 @@ html {
 .hero__text {
   position: absolute;
 }
+
+.hero__phone-name {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.hero__phone-slogan {
+  padding-top: 0.5rem;
+  text-align: center;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.hero__links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 0.5rem;
+}
+
+.hero__link {
+  font-size: 20px;
+  --tw-text-opacity: 1;
+  color: rgb(41 151 255 / var(--tw-text-opacity));
+}
+
+.hero__img {
+  height: 480px;
+  width: 1000px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
