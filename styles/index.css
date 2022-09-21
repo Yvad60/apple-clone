@@ -69,6 +69,9 @@
 .iphone-14-plus__price {
   @apply text-[#89898e] text-lg text-center;
 }
+.iphone-14-plus__phone-slogan{
+  @apply text-center text-3xl pt-2;
+}
 .iphone-14-plus__img-container {
   @apply absolute;
 }
@@ -76,5 +79,8 @@
   @apply top-0 h-[570px] w-[900px] object-cover object-bottom;
 }
 .iphone-14-plus__links {
-  @apply text-[20px] text-[#2997ff];
+  @apply text-[20px] text-[#2997ff] flex gap-[40px];
+}
+.iphone-14-plus__link{
+  @apply inline-block
 }

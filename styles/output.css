@@ -559,19 +559,77 @@ html {
   position: absolute;
 }
 
-.relative {
-  position: relative;
+.mt-\[410px\] {
+  margin-top: 410px;
 }
 
+.flex {
+  display: flex;
+}
+
+.h-\[570px\] {
+  height: 570px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-center {
+  -o-object-position: center;
+     object-position: center;
+}
+
+.pt-\[40px\] {
+  padding-top: 40px;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+/* Navbar */
+
 .navbar {
+  position: sticky;
+  top: 0px;
+  z-index: 50;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 3rem;
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .navbar__links {
@@ -602,25 +660,10 @@ html {
   color: rgb(245 245 247 / var(--tw-text-opacity));
 }
 
-.donate-banner {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.donate-banner__text {
-  text-align: center;
-  font-size: 14px;
-  --tw-text-opacity: 1;
-  color: rgb(29 78 216 / var(--tw-text-opacity));
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-}
-
-/* hero section */
+/* Hero section */
 
 .hero {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -629,10 +672,6 @@ html {
   padding-top: 40px;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hero__img-container {
-  position: relative;
 }
 
 .hero__text {
@@ -674,3 +713,74 @@ html {
      object-position: bottom;
 }
 
+/* iPhone 14 plus */
+
+.iphone-14-plus {
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 251 253 / var(--tw-bg-opacity));
+}
+
+.iphone-14-plus__text {
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.iphone-14-plus__name {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.iphone-14-plus__links {
+  font-size: 20px;
+  --tw-text-opacity: 1;
+  color: rgb(41 151 255 / var(--tw-text-opacity));
+}
+
+.iphone-14-plus__price {
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(137 137 142 / var(--tw-text-opacity));
+}
+
+.iphone-14-plus__phone-slogan {
+  padding-top: 0.5rem;
+  text-align: center;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.iphone-14-plus__img-container {
+  position: absolute;
+}
+
+.iphone-14-plus__img {
+  top: 0px;
+  height: 570px;
+  width: 900px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
+.iphone-14-plus__links {
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+  --tw-text-opacity: 1;
+  color: rgb(41 151 255 / var(--tw-text-opacity));
+}
+
+.iphone-14-plus__link {
+  display: inline-block;
+}
